@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo 2</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"></a>
+            <a href="#"><img class="logo-image" src="imagenes/logo.png" alt=""></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu"><img src="imagenes/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <body class="formu">
+        <form class="formulario">
+    
+            <h4>Login</h4>
+             <div class="contenedor">
+                 <div class="input-contenedor">
+                 <i class="fas fa-envelope icon"></i>
+                 <input type="text" placeholder="Correo Electronico">
+                 
+                 </div>
+                 
+                 <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                 <input type="password" placeholder="Contraseña">
+                 
+                 </div>
+                 <input type="submit" value="Login" class="button">
+                 <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                 <p>¿No tienes una cuenta? <a class="link" href="registro.html">Registrate </a></p>
+             </div>
+            </form>
+        </body>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
